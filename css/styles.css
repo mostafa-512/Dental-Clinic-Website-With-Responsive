@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import 'animate.css';
 
 *{
     margin: 0;
@@ -28,11 +29,12 @@ header{
 .sec1-greeting-contact{
     width: 100%;
     height: 50rem;
-    background-color: black;
+    /* background-color: black; */
+    display: flex;
 }
 
 .sec1Divs{
-    width: calc((100% - 1rem)/ 2);
+    width: 50%;
     height: 100%;
 }
 
@@ -46,7 +48,6 @@ header{
 .sec1-contact-box{
     width: 24rem;
     height: 30rem;
-    background-color: aquamarine;
     padding: 50px 30px;
 }
 
@@ -114,3 +115,18 @@ header{
 }
 
 /* End Snippets */
+.sec1-greetingImg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.secOne-img{
+    width: 94%;
+    height: 82%;
+    background-color: #ff724a;
+    background-image: url("../img/Welcome-img.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
