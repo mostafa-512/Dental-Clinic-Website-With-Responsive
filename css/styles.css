@@ -14,6 +14,65 @@ body{
     height: 100vh;
 }
 
+/* media queries */
+
+@media screen and (max-width: 576px) {
+    .sec1Divs{
+        width: 100%;
+        height: 54%;
+    }
+    .secOne-img{
+        width: 100%;
+    }
+    .sec1-contactD{
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .sec1Divs{
+        width: 100%;
+        height: 94%;
+    }
+    .sec1-contactD{
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .sec1Divs{
+        width: 100%;
+        height: 54%;
+    }
+    .sec1-contactD{
+        margin-bottom: 4rem;
+    }
+    }
+    
+
+
+    @media screen and (min-width: 993px) and (max-width: 1024px) {
+
+        .secOne-img{
+            height: 60%;
+            width: 100%;
+        }
+
+        .sec1-contact-box{
+            width: 24rem;
+            height: 30rem;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 0px;
+        }
+    }
+
+
+    /* end Of media queries */
+
+
+
         /* Header */
 
 header{
@@ -31,7 +90,6 @@ header{
     height: 50rem;
     display: flex;
     flex-wrap: wrap;
-    flex: 1;
 }
 
 .sec1Divs{
@@ -132,64 +190,36 @@ header{
 }
 
 
+        /* End Of Section 1 */
 
-@media screen and (max-width: 576px) {
-    .sec1Divs{
+        /* Section 2 */
+
+    .sec2-services{
         width: 100%;
-        height: 54%;
+        height: 26rem;
+        /* background-color: #0f4; */
     }
-    .secOne-img{
+
+    .container-sec2{
         width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        gap: 22px;
     }
-    .sec1-contactD{
-        margin-bottom: 4rem;
-    }
+
+    .serviceBoxes{
+        display: flex;
+        flex-direction: column;
+        width: 16rem;
+        height: 17rem;
+        background-color: #ff724a;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        padding: 30px;
 }
-
-@media screen and (min-width: 577px) and (max-width: 768px) {
-    .sec1Divs{
-        width: 100%;
-        height: 94%;
-    }
-    .sec1-contactD{
-        margin-bottom: 4rem;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 992px) {
-    .sec1Divs{
-        width: 100%;
-        height: 54%;
-    }
-    .sec1-contactD{
-        margin-bottom: 4rem;
-    }
-    }
-    
-
-
-    @media screen and (min-width: 993px) and (max-width: 1024px) {
-
-        .secOne-img{
-            height: 60%;
-            width: 100%;
-        }
-
-        .sec1-contact-box{
-            width: 24rem;
-            height: 30rem;
-            padding-top: 50px;
-            padding-right: 30px;
-            padding-bottom: 50px;
-            padding-left: 0px;
-        }
-    }
-
-
-    @media screen and (min-width: 1024px) {
-        .secOne-img{
-            height: 100%;
-
-        }
-
-    }
