@@ -11,65 +11,10 @@
 
 body{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-/* media queries */
 
-@media screen and (max-width: 576px) {
-    .sec1Divs{
-        width: 100%;
-        height: 54%;
-    }
-    .secOne-img{
-        width: 100%;
-    }
-    .sec1-contactD{
-        margin-bottom: 4rem;
-    }
-}
-
-@media screen and (min-width: 577px) and (max-width: 768px) {
-    .sec1Divs{
-        width: 100%;
-        height: 94%;
-    }
-    .sec1-contactD{
-        margin-bottom: 4rem;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 992px) {
-    .sec1Divs{
-        width: 100%;
-        height: 54%;
-    }
-    .sec1-contactD{
-        margin-bottom: 4rem;
-    }
-    }
-    
-
-
-    @media screen and (min-width: 993px) and (max-width: 1024px) {
-
-        .secOne-img{
-            height: 60%;
-            width: 100%;
-        }
-
-        .sec1-contact-box{
-            width: 24rem;
-            height: 30rem;
-            padding-top: 50px;
-            padding-right: 30px;
-            padding-bottom: 50px;
-            padding-left: 0px;
-        }
-    }
-
-
-    /* end Of media queries */
 
 
 
@@ -90,6 +35,7 @@ header{
     height: 50rem;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .sec1Divs{
@@ -184,11 +130,10 @@ header{
 .secOne-img{
     width: 100%;
     height: 82%;
-    background-image: url("../img/Welcome-img.jpg");
+    background-image: url("../img/sec1/Welcome-img.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }
-
 
         /* End Of Section 1 */
 
@@ -197,6 +142,7 @@ header{
     .sec2-services{
         width: 100%;
         height: 26rem;
+        color: white;
         /* background-color: #0f4; */
     }
 
@@ -206,6 +152,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         /* background-color: red; */
         gap: 22px;
     }
@@ -213,6 +160,8 @@ header{
     .serviceBoxes{
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
         width: 16rem;
         height: 17rem;
         background-color: #ff724a;
@@ -222,4 +171,85 @@ header{
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         padding: 30px;
-}
+        
+    }
+
+    .sec2-a-box{
+        text-decoration: none;
+        color: white;
+        border-bottom: 1px solid white;
+        border-width: 1px;
+        text-transform: uppercase;
+    }
+    .sec2-a-box:hover{
+        border-color:  #a4a4b4;
+    }
+    .sec2-img-box{
+        width: 64px;
+        height: 64px;
+    }
+
+    .h4-sec2-box{
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+    
+/*     
+    
+    /* media queries */
+    /* @media screen and (max-width: 576px) {
+        .sec1Divs{
+            width: 100%;
+            height: 54%;
+        }
+        .secOne-img{
+            width: 100%;
+        }
+        .sec1-contactD{
+            margin-bottom: 4rem;
+        }
+    }
+    
+    @media screen and (min-width: 577px) and (max-width: 768px) {
+        .sec1Divs{
+            width: 100%;
+            height: 94%;
+        }
+        .sec1-contactD{
+            margin-bottom: 4rem;
+        }
+    }
+    
+    @media screen and (min-width: 769px) and (max-width: 992px) {
+        .sec1Divs{
+            width: 100%;
+            height: 54%;
+        }
+        .sec1-contactD{
+            margin-bottom: 4rem;
+        }
+        }
+        
+    
+    
+        @media screen and (min-width: 993px) and (max-width: 1024px) {
+    
+            .secOne-img{
+                height: 60%;
+                width: 100%;
+            }
+    
+            .sec1-contact-box{
+                width: 24rem;
+                height: 30rem;
+                padding-top: 50px;
+                padding-right: 30px;
+                padding-bottom: 50px;
+                padding-left: 0px;
+            }
+        }
+     */
+    
+        /* end Of media queries */
+
+         
