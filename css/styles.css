@@ -29,8 +29,8 @@ header{
 .sec1-greeting-contact{
     width: 100%;
     height: 50rem;
-    /* background-color: black; */
     display: flex;
+    flex-wrap: wrap;
 }
 
 .sec1Divs{
@@ -123,10 +123,63 @@ header{
 }
 
 .secOne-img{
-    width: 94%;
+    width: 100%;
     height: 82%;
-    background-color: #ff724a;
     background-image: url("../img/Welcome-img.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }
+
+
+
+@media screen and (max-width: 576px) {
+    .sec1Divs{
+        width: 100%;
+        height: 54%;
+    }
+    .secOne-img{
+        width: 100%;
+    }
+    .sec1-contactD{
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .sec1Divs{
+        width: 100%;
+        height: 94%;
+    }
+    .sec1-contactD{
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .sec1Divs{
+        width: 100%;
+        height: 54%;
+    }
+    .sec1-contactD{
+        margin-bottom: 4rem;
+    }
+    }
+    
+
+
+    @media screen and (min-width: 993px) and (max-width: 1024px) {
+
+        .secOne-img{
+            height: 60%;
+            width: 100%;
+        }
+
+        .sec1-contact-box{
+            width: 24rem;
+            height: 30rem;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            padding-left: 0px;
+        }
+    }
